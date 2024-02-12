@@ -18,26 +18,32 @@ This is a Django project with Django REST Framework (DRF) for implementing authe
    virtualenv myenv
    source myenv/bin/activate
    ```
-   For Window
+   For Window:
    ```bash
    virtualenv myenv
    myenv\Scripts\Activate.ps1
    ```
 
 4. Install dependencies:
+```bash
 pip install -r requirements.txt
+```
 
-5. Run migrations:
+6. Run migrations:
+```bash
 python manage.py migrate
+```
 
 ## Usage
 1. Start the development server:
+```bash
 python manage.py runserver
-
-2. Create a superuser:
+```
+3. Create a superuser:
+```bash
 python manage.py createsuperuser
-
-3. Open your web browser and go to http://127.0.0.1:8000/admin to access the admin panel.
+```
+5. Open your web browser and go to [http://127.0.0.1:8000/admin](http://127.0.0.1:8000/admin) to access the admin panel.
 
 ## Endpoints
 
