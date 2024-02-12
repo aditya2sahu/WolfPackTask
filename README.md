@@ -17,11 +17,17 @@ This is a Django project with Django REST Framework (DRF) for implementing authe
    ```bash
    virtualenv myenv
    source myenv/bin/activate
+   ```
+   For Window
+   ```bash
+   virtualenv myenv
+   myenv\Scripts\Activate.ps1
+   ```
 
-3. Install dependencies:
+4. Install dependencies:
 pip install -r requirements.txt
 
-4. Run migrations:
+5. Run migrations:
 python manage.py migrate
 
 ## Usage
