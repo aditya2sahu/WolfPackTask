@@ -44,6 +44,6 @@ python manage.py createsuperuser
 - **Refresh Token:** [http://127.0.0.1:8000/refresh_token](http://127.0.0.1:8000/refresh_token)  
   Use this endpoint to refresh JWT tokens. Send a POST request with a refresh token.
 
-#Contributing
+## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
