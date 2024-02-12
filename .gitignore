@@ -1,2 +1,2 @@
 # Ignore all files and directories within the migrations directory of the Authentications app
-**/migrations/**
+**/migrations/*
