@@ -4,14 +4,7 @@ This is a Django project with Django REST Framework (DRF) for implementing authe
 
 ## Installation
 
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/aditya2sahu/WolfPackTask.git
-    cd WolfPackTask
-    ```
-
-2. **Create a virtual environment and activate it:**
+1. **Create a virtual environment and activate it:**
 
    For Linux/Mac:
    ```bash
@@ -23,7 +16,12 @@ This is a Django project with Django REST Framework (DRF) for implementing authe
    virtualenv myenv
    myenv\Scripts\Activate.ps1
    ```
+2. Clone the repository:
 
+    ```bash
+    git clone https://github.com/aditya2sahu/WolfPackTask.git
+    cd WolfPackTask
+    ```
 4. Install dependencies:
 ```bash
 pip install -r requirements.txt
